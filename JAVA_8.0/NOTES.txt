@@ -1,0 +1,38 @@
+Stream Api 
+
+
+-->it hleps us to perform  bulk operation on collections 
+-->some of method in stram Api
+    01. stram()
+    it returns the strems types object  and hleps  us to itreate over the collections
+
+    02.filter()
+    it is use to filter the collections
+
+    03.map()
+    it is insure that there is no data lost in the stram pipe line.
+
+    04.count()
+    it is use to count the element of the collections.
+
+    05.limit()
+    it limit the collections.
+
+    06.collect()
+     it hepls us to collect the element to the collections based on the arguments.
+
+    07.forEach() 
+    it is use to itreate over the collections.
+
+collectors
+    it is a class present in java.util.stram package
+    it contains the static method which helps to convert the stream element into collections
+
+    01.toList()
+    02.toSet()
+    03.toMap()
+
+
+
+
+

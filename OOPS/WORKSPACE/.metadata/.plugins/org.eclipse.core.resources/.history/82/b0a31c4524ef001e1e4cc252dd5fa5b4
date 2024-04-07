@@ -1,0 +1,23 @@
+package threadExample;
+
+public class T6_CurrentThread {
+
+	public static void main(String[] args) {
+		System.out.println("Main method Started");
+		Thread t = new Thread();
+		t.setPriority(7);
+		System.out.println(t.getId());
+		
+		Thread curth = Thread.currentThread();
+		System.out.println("Current thread name : " + curth.getName());
+		System.out.println("Current thread id : " + curth.getId());
+		System.out.println("Thread priority : " + curth.getPriority());
+		System.out.println("Main method ended");
+		
+		
+		
+		
+	
+	}
+
+}

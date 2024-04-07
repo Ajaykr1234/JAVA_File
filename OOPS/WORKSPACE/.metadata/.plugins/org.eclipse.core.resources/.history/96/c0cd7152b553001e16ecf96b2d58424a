@@ -1,0 +1,28 @@
+package CabLocation;
+
+public class Cab {
+	private String driver_name;
+	private long driver_no;
+	private  String cab_name;
+	private String cab_number;
+	Location pickup;
+	Location drop;
+	public Cab(String driver_name, long driver_no, String cab_name, String cab_number, String longitude, String lattitude, String direction, Location drop) {
+		super();
+		this.driver_name = driver_name;
+		this.driver_no = driver_no;
+		this.cab_name = cab_name;
+		this.cab_number = cab_number;
+		this.pickup = new Location(longitude, lattitude,  direction);
+		this.drop = drop;
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}
+

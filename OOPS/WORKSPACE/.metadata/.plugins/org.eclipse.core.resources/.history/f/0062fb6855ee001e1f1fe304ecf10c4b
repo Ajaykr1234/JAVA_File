@@ -1,0 +1,7 @@
+package exceptionHandling;
+
+class MyException extends ArithmeticException{
+	
+	
+
+}

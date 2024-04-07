@@ -1,0 +1,11 @@
+package CabLocation;
+
+public class Cab {
+	
+	private  String cab_name;
+	private String cab_number;
+	
+	
+	
+
+}
